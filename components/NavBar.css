@@ -1,0 +1,30 @@
+.nav-bar {
+    position: relative; /* Sets the reference point for the absolute positioning of children */
+  }
+  
+  .logo {
+    position: absolute; /* Positions the logo absolutely within the nav-bar */
+    top: 20px; /* Positions the logo 10px from the top of the nav-bar */
+    left: 40px; /* Positions the logo 20px from the left of the nav-bar */
+  }
+  
+  .nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-bar li {
+    margin-left: 30px; /* Adjust the spacing between list items */
+    color: white; /* Optional text color */
+    font-size: 30px;
+  }
+  
+  .nav-bar li:first-child {
+    margin-left: 0; /* Remove margin from the first list item */
+  }
+
+  .nav-bar li:hover{
+    text-decoration: underline;
+  }
